@@ -1,0 +1,37 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+}
+.message__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.messageBox {
+    width: 220px;
+    background-color: black;
+    border-radius: 5px 5px 5px 0px;
+    padding: 15px;
+}
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgb(255, 255, 255) 15px, rgba(0, 0, 0) 0);
+}
+.messageBox__name {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    margin: 0;
+}
+.messageBox__message {
+    color: greenyellow;
+    word-wrap: break-word;
+    margin: 15px 0 0 0;
+}
+.messageBox__messageTime {
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0 0 0;
+}
