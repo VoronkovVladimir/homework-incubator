@@ -5,7 +5,7 @@ type GreetingPropsType = {
     name: string // need to fix any
     setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void // need to fix any
     addUser: () => void // need to fix any
-    error: any // need to fix any
+    error: string | null // need to fix any
     totalUsers: number // need to fix any
     onKeyPress: (e: React.KeyboardEvent<HTMLInputElement>) => void
 }
